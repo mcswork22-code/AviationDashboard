@@ -129,3 +129,24 @@ color:white;
 }
 
 }
+#datetime{
+
+    margin-top:14px;
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    color:#345;
+
+}
+
+@media(prefers-color-scheme:dark){
+
+#datetime{
+
+    color:#d6e7ff;
+
+}
+
+}
