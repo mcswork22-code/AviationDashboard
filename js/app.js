@@ -1,3 +1,1 @@
-window.onload = function () {
-    document.getElementById("datetime").innerHTML = "JavaScript 動作確認成功！";
-};
+function u(){const n=new Date();const M=['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];document.getElementById('datetime').innerHTML=n.toISOString().substring(11,19)+' (Z)<br>'+String(n.getUTCDate()).padStart(2,'0')+' '+M[n.getUTCMonth()]+' '+n.getUTCFullYear();}u();setInterval(u,1000);
